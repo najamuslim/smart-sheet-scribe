@@ -1,26 +1,26 @@
 
-import { Book, Brain, Clock, Settings } from "lucide-react";
+import { BookOpen, Brain, Clock, Settings } from "lucide-react";
 
 const features = [
   {
     icon: Brain,
-    title: "AI-Powered Generation",
-    description: "Advanced AI technology creates unique, tailored worksheets based on your requirements.",
+    title: "Smart Content Generation",
+    description: "Our AI generates grade-appropriate questions and content tailored to your specific subject and requirements.",
+  },
+  {
+    icon: BookOpen,
+    title: "Multiple Subjects",
+    description: "Create worksheets for any subject - from Math and Science to History and Language Arts.",
   },
   {
     icon: Settings,
-    title: "Customizable Templates",
-    description: "Choose from various templates and customize them to match your teaching style.",
+    title: "Customizable Format",
+    description: "Choose from multiple-choice, short answer, or essay questions. Customize layouts and difficulty levels.",
   },
   {
     icon: Clock,
-    title: "Save Time",
-    description: "Create worksheets in seconds instead of hours. Focus more on teaching.",
-  },
-  {
-    icon: Book,
-    title: "Subject Variety",
-    description: "Generate worksheets for any subject, from math to language arts.",
+    title: "Time-Saving",
+    description: "Generate complete worksheets in seconds instead of hours. Focus more on teaching and less on preparation.",
   },
 ];
 
@@ -29,10 +29,10 @@ export const Features = () => {
     <section className="py-24 px-4 bg-accent/30">
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-text mb-4">
-          Features that Make a Difference
+          Powerful Features for Educators
         </h2>
         <p className="text-lg text-text-muted text-center max-w-2xl mx-auto mb-16">
-          Our AI worksheet generator comes packed with powerful features to enhance your teaching experience.
+          Create professional educational content quickly and easily with our AI-powered worksheet generator.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
